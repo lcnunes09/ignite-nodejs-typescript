@@ -12,4 +12,6 @@ yarn tsc --init
 Para conseguir rodar o código, é preciso fazer com que os arquivos typescript sejam criados em js, e para isso é necessário informar no parâmetro outDir do arquivo de configuração do typescript para onde esses arquivos reescritos irão ficar:
 "outDir": "./dist"
 
-Desta forma, toda vez que rodar o comando yarn tsc, os arquivos ts serão recriados como js e colocados dentro dessa pasta. Assim, poderá ser rodado o código.
+Desta forma, toda vez que rodar o comando yarn tsc, os arquivos ts serão recriados como js e colocados dentro dessa pasta. Assim, poderá ser rodado o código. Para rodar:
+yarn tsc
+node dist/server.js
